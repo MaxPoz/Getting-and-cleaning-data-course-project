@@ -107,4 +107,4 @@ After open all the dataset with read.table:
 
     tidydata
     
-  The `tidydata` set group by activities and subject and will average all the variable
+  The `tidydata` from `dat`set group by activities and subject and will average all the variable
