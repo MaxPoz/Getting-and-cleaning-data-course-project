@@ -5,7 +5,7 @@ Human Activity Recognition Using Smartphones Dataset
 This is documents will describe the R programme for the programming assesment. This program will used a dataset from a study "Human Activity Recognition Using Smartphones"
 for more info of the project :http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The name of the R file is : ´run_analysis.R´
+The name of the R file is : `run_analysis.R`
 
 The goal of this program is divided into 5 part :
 
