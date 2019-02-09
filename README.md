@@ -61,7 +61,7 @@ After open all the dataset with read.table:
     dat <- cbind(subject_table,Ytable, Xtable)
     rm(subject_table,Ytable, Xtable,features)
     
-###2-Extracts only the measurements on the mean and standard deviation for each measurement.
+### 2-Extracts only the measurements on the mean and standard deviation for each measurement.
     #find word mean and sdt in column name of the dat data frame
     index<-grep("mean|std|subject number|Activity", colnames(dat))
 
