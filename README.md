@@ -79,7 +79,7 @@ After open all the dataset with read.table:
       datameanstd[i, 2] = as.character(activity_labels[index, 2]) # past the value 
 
     } # Close loop!
-    
+`datameanstd` is the table with the mean and std variable
 ### 4-Appropriately labels the data set with descriptive variable names.
 
     #add column name for Xtable and rename the column name with features.txt (4 step in the assesment)
