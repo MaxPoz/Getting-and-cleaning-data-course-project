@@ -52,6 +52,7 @@ After open all the dataset with read.table:
     subject_test <- read.table(file = "C:\\Users\\maxpoz\\Downloads\\UCI HAR Dataset\\test\\subject_test.txt")
 
  I combined the data into a one set of data called `dat`:
+ 
     #Rbind tables
     Xtable<- rbind(X_train,X_test)
     Ytable<- rbind(Y_train,Y_test)
