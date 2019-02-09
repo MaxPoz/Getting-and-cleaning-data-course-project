@@ -3,28 +3,40 @@
 
 "dat" table who gather the train and test data , details of variable available in "Original files" Part
 
-"datameanstd"
+"datameanstd" and "tidydata" table contains the follow calculated variables (mean(): Mean value
+std(): Standard deviation) along with their units:
+
+tBodyAcc-XYZ=>standard gravity units 'g'
+tGravityAcc-XYZ=>standard gravity units 'g'
+tBodyAccJerk-XYZ=>standard gravity units 'g'
+tBodyGyro-XYZ=>radians/second
+tBodyGyroJerk-XYZ=>radians/second
+tBodyAccMag=>standard gravity units 'g'
+tGravityAccMag=>standard gravity units 'g'
+tBodyAccJerkMag=>standard gravity units 'g'
+tBodyGyroMag=>radians/second
+tBodyGyroJerkMag=>radians/second
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ=>radians/second
+fBodyAccMag=>standard gravity units 'g'
+fBodyAccJerkMag=>standard gravity units 'g'
+fBodyGyroMag=>radians/second
+fBodyGyroJerkMag=>radians/second
 
 
+Below a summarize of the tidydata means value:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# A tibble: 6 x 81
+# Groups:   subject number [1]
+  `subject number` Activity `tBodyAcc-mean(~ `tBodyAcc-mean(~ `tBodyAcc-mean(~ `tBodyAcc-std()~ `tBodyAcc-std()~
+             <dbl> <chr>               <dbl>            <dbl>            <dbl>            <dbl>            <dbl>
+1                1 LAYING              0.222         -0.0405           -0.113           -0.928          -0.837  
+2                1 SITTING             0.261         -0.00131          -0.105           -0.977          -0.923  
+3                1 STANDING            0.279         -0.0161           -0.111           -0.996          -0.973  
+4                1 WALKING             0.277         -0.0174           -0.111           -0.284           0.114  
+5                1 WALKING~            0.289         -0.00992          -0.108            0.0300         -0.0319 
+6                1 WALKING~            0.255         -0.0240           -0.0973          -0.355          -0.00232
 
 
 #Original file:
